@@ -1,5 +1,6 @@
 #include <QCoreApplication>
 #include "QtCommonMacros.h"
+#include "log4qtlib.h"
 
 int main(int argc, char *argv[])
 {

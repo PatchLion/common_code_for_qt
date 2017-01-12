@@ -1,0 +1,5 @@
+2017-01-12 19:24:54 [A2]-[DEBUG] ++++
+2017-01-12 19:24:54 [A2]-[INFO] ----
+2017-01-12 19:24:55 [A2]-[WARN] ====
+2017-01-12 19:24:55 [CLog4QtObject]-[INFO] constructor
+2017-01-12 19:24:55 [CLog4QtObject]-[INFO] destructor
