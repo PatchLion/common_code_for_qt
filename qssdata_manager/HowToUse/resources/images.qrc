@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/main/button_24_0_0.png</file>
+        <file>images/main/button_24_0_1.png</file>
+        <file>images/main/button_24_0_2.png</file>
+        <file>images/main/choose_14x14_0_0.png</file>
+        <file>images/main/choose_14x14_0_1.png</file>
+        <file>images/main/choose_14x14_0_2.png</file>
+        <file>images/main/handle_default.png</file>
+        <file>images/main/snajiao_defaultwin.png</file>
+        <file>images/main/snajiao_hoverwin.png</file>
+        <file>images/main/snajiao_pressedwin.png</file>
+    </qresource>
+</RCC>

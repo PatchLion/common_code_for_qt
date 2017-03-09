@@ -1,0 +1,32 @@
+QRadioButton{
+	background-color: transparent;
+    color: #dbdbdb;
+}
+QRadioButton::indicator {
+    width: 14px;
+    height: 14px;
+}
+
+QRadioButton::indicator::unchecked {
+    image: url(:/images/main/choose_14x14_0_0.png);
+}
+
+QRadioButton::indicator:unchecked:hover {
+    image: url(:/images/main/choose_14x14_0_0.png);
+}
+
+QRadioButton::indicator:unchecked:pressed {
+    image: url(:/images/main/choose_14x14_0_0.png);
+}
+
+QRadioButton::indicator::checked {
+    image: url(:/images/main/choose_14x14_0_2.png);
+}
+
+QRadioButton::indicator:checked:hover {
+    image: url(:/images/main/choose_14x14_0_2.png);
+}
+
+QRadioButton::indicator:checked:pressed {
+    image: url(:/images/main/choose_14x14_0_2.png);
+}

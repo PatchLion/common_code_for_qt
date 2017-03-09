@@ -1,0 +1,98 @@
+QComboBox  
+{
+    width:60px;
+	height:24px;
+	font: 12px "微软雅黑";
+	color: #ffffff;
+	border:0px;
+	padding-left:4px;
+	background-color:rgba(187, 187, 187, 80%);
+ }
+
+QComboBox::drop-down 
+{
+	width:24px;
+	height:24px;
+    border:0px;
+	border-image: url(:/images/main/snajiao_pressedwin.png);
+}
+
+QComboBox::drop-down:hover 
+{
+	border-image: url(:/images/main/snajiao_hoverwin.png);
+}
+
+QComboBox::drop-down:pressed 
+{
+	border-image: url(:/images/main/snajiao_pressedwin.png);
+}
+
+QAbstractItemView
+{
+    border: 0px;
+	outline: 0px;
+	color: rgb(200, 200, 200);
+	background-color: rgb(76, 76, 76);
+}
+
+QListView::item
+{
+    border: 0px none transparent;
+	color: rgb(200, 200, 200);
+	background-color: rgb(76, 76, 76);
+	font: 12px;
+}
+QListView::item:selected
+{
+    border: 2px;
+    background-color: rgb(37, 179, 255);
+    color: rgb(255, 255, 255);
+}
+
+QScrollBar:vertical {
+    border: 0;		
+    width:6px;
+	margin: 1px 2px 1px 0px;
+	background: transparent;
+}
+
+QScrollBar::handle:vertical {	
+	width:4px;
+	border: 1px solid rgba(168,168,168);
+	border-radius: 2px;
+	background-image: url(:/images/main/handle_default.png);
+}
+
+
+ QScrollBar::up-arrow:vertical
+{
+	height:1px;
+	background: none;
+}
+QScrollBar::down-arrow:vertical
+{
+height:1px;
+	
+	background: none;
+}
+
+QScrollBar::add-line:vertical{	
+	height:1px;
+
+	background: none;
+  
+}
+QScrollBar::sub-line:vertical{
+		
+height:1px;
+	
+
+	background: none;
+}
+
+QScrollBar::add-page:vertical{
+	background: none;
+}
+QScrollBar::sub-page:vertical {
+	background: none;
+}

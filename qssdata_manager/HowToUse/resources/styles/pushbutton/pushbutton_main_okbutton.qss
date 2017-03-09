@@ -1,0 +1,23 @@
+QPushButton
+{
+    width:60px;
+    height:24px;
+    background-color: transparent;
+	border-radius: 10px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-family: "Noto Sans";
+    font-size:14px;
+}
+
+QPushButton:hover
+{
+	color: #ac975e;
+    background-color: #ffffff;
+}
+
+QPushButton:pressed
+{
+	color: #847e6c;
+    background-color: #ebebeb;
+}
