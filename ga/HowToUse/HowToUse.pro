@@ -1,6 +1,6 @@
 TEMPLATE = app
 TARGET = HowToUse
-QT += core widgets gui
+QT += core network
 
 include(public.pri)
 
@@ -9,9 +9,5 @@ INCLUDEPATH +=. \
  ../../singleton \
  ../../macro
 
-HEADERS += ../*.h ./*.h
+HEADERS += ../*.h
 SOURCES += ../*.cpp ./*.cpp
-
-FORMS += ./*.ui
-
-RESOURCES += ./resources/*.qrc
