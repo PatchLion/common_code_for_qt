@@ -2,7 +2,7 @@ TEMPLATE = app
 TARGET = HowToUse
 QT += core network
 
-include(public.pri)
+include(../../public.pri)
 
 INCLUDEPATH +=. \
 .. \

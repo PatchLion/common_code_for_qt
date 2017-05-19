@@ -3,7 +3,7 @@ TARGET = demo
 QT += core gui widgets
 CONFIG += console
 
-include(public.pri)
+include(../../../public.pri)
 
 INCLUDEPATH += . ..
 

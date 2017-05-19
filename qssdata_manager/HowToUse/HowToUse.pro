@@ -2,7 +2,7 @@ TEMPLATE = app
 TARGET = HowToUse
 QT += core widgets gui
 
-include(public.pri)
+include(../../public.pri)
 
 INCLUDEPATH +=. \
 .. \
