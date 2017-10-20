@@ -9,6 +9,16 @@ CheckButtonBase
     property string hoverIcon: ""
     property string disableIcon: ""
 
+    defaultBorderColor: "transparent"
+    pressedBorderColor: "transparent"
+    hoverBorderColor: "transparent"
+    disabledBorderColor: "transparent"
+
+    defaultColor: "transparent"
+    pressedColor: "transparent"
+    hoverColor: "transparent"
+    disabledColor: "transparent"
+
     Image
     {
         z: 0
